@@ -15,9 +15,9 @@ Custom design created in Figma.
 Installation
 1. Clone the repository:
     git clone https://github.com/isigorr/CSCourses
-2. Navigate to the project folder:
+3. Navigate to the project folder:
     cd cscourses
-3. Open index.html in your browser or serve the files using a simple web server (e.g., Live Server extension for VS Code).
+5. Open index.html in your browser or serve the files using a simple web server (e.g., Live Server extension for VS Code).
 
 Usage
 Open the index.html file to access the main page. Use smooth scrolling to explore the page's sections.
