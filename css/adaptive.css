@@ -1,4 +1,4 @@
-/* 4K (3840px і більше) */
+
 @media (min-width: 3500px) {
     .container-home {
         min-height: 2500px;
@@ -271,8 +271,7 @@
     }
 }
 
-/* 2K (2560px і більше) */
-@media (min-width: 2560px) and (max-width: 3839px) {
+@media (min-width: 2560px) and (max-width: 3499px) {
     .container-home {
         min-height: 2500px;
     }
