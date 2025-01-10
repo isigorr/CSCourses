@@ -1,4 +1,4 @@
-# CSCourses
+# [CSCourses](https://isigorr.github.io/CSCourses/) <-
 
 ## Description
 CSCourses is a frontend part of a website designed to sell courses that help users improve their skills in Counter-Strike. The site features smooth scrolling animations, engaging content, and an intuitive design to enhance user experience.
