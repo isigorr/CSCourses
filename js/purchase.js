@@ -92,7 +92,7 @@ ScrollTrigger.create({
     trigger: ".downarrow",
     pin: true,
     start: "center center",
-    end: "+=6000"
+    end: "+=4000"
 });
 
 const bcgWidth = document.querySelector(".background")

@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/lufga?styles=110361,110354,110357,110359,110362,110350,110352,110348');
+
 * {
     margin: 0;
     padding: 0;
@@ -52,8 +54,6 @@ a, button, input, textarea {
     color: black;
 }
 
-@import url('https://fonts.cdnfonts.com/css/lufga?styles=110361,110354,110357,110359,110362,110350,110352,110348');
-
 .button1 {
     font-family: 'Lufga', sans-serif;
     font-size: 18px;
@@ -92,7 +92,7 @@ a, button, input, textarea {
     color: black;
     background-color: var(--color-yellow);
 }
-  
+
 .button1:hover:before, .button1:focus:before {
     transition: 0.5s all ease;
     left: 0;
@@ -519,6 +519,8 @@ body {
     max-width: 190px;
     margin-bottom: 25px;
     margin-left: 8.5%;
+    font-size: 25px;
+    text-align: center;
 }
   
 .input-name:active {
@@ -534,6 +536,8 @@ body {
     max-width: 190px;
     margin-bottom: 25px;
     margin-left: 15px;
+    font-size: 25px;
+    text-align: center;
 }
   
 .input-email:active {
@@ -615,7 +619,7 @@ body {
     font-size: 90px;
     text-align: center;
 }
-.about1, .about2 {
+.about1, .about2, .about3{
     background-color: #232323;
     text-shadow: 1.5px 1.5px 1.5px black;
     box-shadow: 2px 2px 2px black, -2px -2px 2px black;

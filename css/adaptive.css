@@ -1,3 +1,532 @@
+/* 4K (3840px і більше) */
+@media (min-width: 3500px) {
+    .container-home {
+        min-height: 2500px;
+    }
+    .home-content-left {
+        margin-top: 350px;
+        margin-left: 150px;
+    }
+    .home-content-right {
+        margin-left: 1200px;
+    }
+    .header-logo-img {
+        width: 150px;
+        aspect-ratio: 1;
+    }
+    .header-link {
+        font-weight: 400;
+        font-size: 40px;
+    }
+    .header-linky {
+        font-size: 40px;
+    }
+    .header-logo-img {
+        width: 250px;
+        aspect-ratio: 1;
+    }
+    .header {
+        column-gap: 50px;
+        padding-top: 100px;
+        padding-left: 100px;
+    }
+    .home-img {
+        width: calc(var(--pct-width) * 2.1);
+        height: calc(var(--pct-height) * 2.1);
+        bottom: -1500px;
+    }
+    .home-title {
+        font-size: 150px;
+    }
+    .home-info {
+        font-size: 100px;
+        margin-top: 210px;
+    }
+    .home-text {
+        font-size: 50px;
+        margin-top: 480px;
+    }
+    .button1 {
+        font-size: 45px;
+        top: 490px;
+    }
+    .home-geo {
+        font-size: 40px;
+    }
+    .geo-icon {
+        width: 42px;
+        aspect-ratio: 1;
+    }
+    .geo-text {
+        margin-bottom: 5px;
+    }
+    .background {
+        width: 98%;
+        height: 100%;
+        background: linear-gradient(to right, #1B1B1B, #262626) no-repeat;
+        background-position: center;
+        border-radius: 6vh;
+        box-shadow: 2px 2px 2px black, -2px -2px 2px black;
+    }
+    .contents {
+        padding: 1% auto;
+        margin: 1% auto;
+        width: 99%;
+    }
+    .cons-img, .cons-img1 {
+        width: 1500px;
+        aspect-ratio: 1;
+        filter: drop-shadow(3px 3px 3px black);
+    }
+    .cons1 {
+        column-gap: 500px;
+        padding-top: 10px;
+    }
+    .cons2 {
+        column-gap: 300px;
+        padding-top: 350px;
+    }
+    .cons3 {
+        column-gap: 500px;
+        padding-top: 350px;
+    }
+    .cons {
+        position: relative;
+        padding-left: 300px;
+    }
+    .cons-text {
+        font-size: 50px;
+        padding-top: 50px;
+    }
+    .cons-text1 {
+        padding-top: 520px;
+    }
+    .cons-text2 {
+        padding-top: 400px;
+    }
+    .cons-title {
+        font-size: 150px;
+        line-height: 150px;
+    }
+    .courses {
+        padding-left: 8%;
+        padding-right: 5%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding-top: 2%;
+        padding-bottom: 5%;
+        border-radius: 4vh;
+        width: fit-content;
+    }
+    .courses123 {
+        column-gap: 250px;
+    }
+    .course1-card, .course2-card, .course3-card {
+        width: 500px;
+        height: 582px;
+        border-radius: 2vh;
+    }
+    .courseimg1, .courseimg2, .courseimg3{
+        height: 570px;
+    }
+    .courseimg1 {
+        width: 201px;
+    }
+    .courseimg2 {
+        width: 238px;
+    }
+    .courseimg3 {
+        width: 416px;
+    }
+    .text-title {
+        font-size: 150px;
+    }
+    .coursetext {
+        padding-top: 20px;
+    }
+    .coursetitle {
+        font-size: 70px;
+    }
+    .coursedesc {
+        font-size: 55px;
+        margin-top: 8px;
+    }
+    .price {
+        font-size: 45px;
+        margin-top: 15px;
+    }
+
+    .freecourse {
+        width: 92%;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        border-radius: 4vh;
+    }
+    .fc-title{
+        font-size: 150px;
+    }
+    .fc-text, .fc-text1 {
+        font-size: 65px;
+    }
+    .fc-text1 {
+        margin-left: 200px;
+        padding-bottom: 40px;
+    }
+    .fc-form{
+        text-align: justify;
+    }
+    .formlabel {
+        font-size: 45px;
+    }
+    .input-name {
+        border: 4px solid var(--color-yellow);
+        border-radius: 15px;
+        max-width: 5000px;
+        margin-bottom: 70px;
+        margin-left: 6%;
+        font-size: 45px;
+    }
+    .input-email {
+        border: 4px solid var(--color-yellow);
+        border-radius: 15px;
+        padding: 7px 150px;
+        max-width: 5000px;
+        margin-bottom: 50px;
+        margin-left: 25px;
+        font-size: 45px;
+    }
+    .form-submit {
+        font-size: 45px;
+        border-radius: 60px;
+    }
+
+    .about-us {
+        width: 92%;
+        border-radius: 4vh;
+    }
+    .about-title {
+        font-size: 150px;
+    }
+    .about1, .about2, .about3 {
+        border-radius: 1.5vh;
+        font-size: 50px;
+    }
+
+    .footer {
+        grid-gap: 200px;
+    }
+    .footer-logo-img {
+        width: 250px;
+    }
+    .cmpname {
+        font-size: 80px;
+    }
+    .footer-title {
+        font-size: 65px;
+        line-height: 90px;
+    }
+    .social-img {
+        width: 55px;
+    }
+    .footer-text {
+        font-size: 40px;
+        line-height: 70px;
+    }
+
+    .course-card {
+        width: fit-content;
+        height: 900px;
+        border-radius: 3vh;
+    }
+    .courseimg {
+        height: 895px;
+    }
+    .title {
+        font-size: 100px;
+    }
+    p {
+        font-size: 50px;
+    }
+    .course-description {
+        line-height: 75px;
+    }
+
+    .start1 {
+        padding-top: 700px;
+    }
+    .start2, .start2, .start3, .start4, .start5, .start6, .start7 {
+        padding-top: 1200px;
+    }
+    .racesWrapper {
+        padding-top: 600px;
+    }
+    .finish {
+        margin: auto;
+        padding-top: 600px;
+        padding-bottom: 800px;
+    }
+    .ptext, .ptext2 {
+        font-size: 50px;
+    }
+}
+
+/* 2K (2560px і більше) */
+@media (min-width: 2560px) and (max-width: 3839px) {
+    .container-home {
+        min-height: 2500px;
+    }
+    .home-content-left {
+        margin-top: 350px;
+        margin-left: 150px;
+    }
+    .home-content-right {
+        margin-left: 1200px;
+    }
+    .header-logo-img {
+        width: 150px;
+        aspect-ratio: 1;
+    }
+    .header-link {
+        font-weight: 400;
+        font-size: 40px;
+    }
+    .header-linky {
+        font-size: 40px;
+    }
+    .header-logo-img {
+        width: 250px;
+        aspect-ratio: 1;
+    }
+    .header {
+        column-gap: 50px;
+        padding-top: 100px;
+        padding-left: 100px;
+    }
+    .home-img {
+        width: calc(var(--pct-width) * 2.1);
+        height: calc(var(--pct-height) * 2.1);
+        bottom: -1500px;
+    }
+    .home-title {
+        font-size: 150px;
+    }
+    .home-info {
+        font-size: 100px;
+        margin-top: 210px;
+    }
+    .home-text {
+        font-size: 50px;
+        margin-top: 480px;
+    }
+    .button1 {
+        font-size: 45px;
+        top: 490px;
+    }
+    .home-geo {
+        font-size: 40px;
+    }
+    .geo-icon {
+        width: 42px;
+        aspect-ratio: 1;
+    }
+    .geo-text {
+        margin-bottom: 5px;
+    }
+    .background {
+        width: 98%;
+        height: 100%;
+        background: linear-gradient(to right, #1B1B1B, #262626) no-repeat;
+        background-position: center;
+        border-radius: 6vh;
+        box-shadow: 2px 2px 2px black, -2px -2px 2px black;
+    }
+    .contents {
+        padding: 1% auto;
+        margin: 1% auto;
+        width: 99%;
+    }
+    .cons-img, .cons-img1 {
+        width: 1500px;
+        aspect-ratio: 1;
+        filter: drop-shadow(3px 3px 3px black);
+    }
+    .cons1 {
+        column-gap: 500px;
+        padding-top: 10px;
+    }
+    .cons2 {
+        column-gap: 300px;
+        padding-top: 350px;
+    }
+    .cons3 {
+        column-gap: 500px;
+        padding-top: 350px;
+    }
+    .cons {
+        position: relative;
+        padding-left: 300px;
+    }
+    .cons-text {
+        font-size: 50px;
+        padding-top: 50px;
+    }
+    .cons-text1 {
+        padding-top: 520px;
+    }
+    .cons-text2 {
+        padding-top: 400px;
+    }
+    .cons-title {
+        font-size: 150px;
+        line-height: 150px;
+    }
+    .courses {
+        padding-left: 8%;
+        padding-right: 5%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding-top: 2%;
+        padding-bottom: 5%;
+        border-radius: 4vh;
+        width: fit-content;
+    }
+    .courses123 {
+        column-gap: 250px;
+    }
+    .course1-card, .course2-card, .course3-card {
+        width: 500px;
+        height: 582px;
+        border-radius: 2vh;
+    }
+    .courseimg1, .courseimg2, .courseimg3{
+        height: 570px;
+    }
+    .courseimg1 {
+        width: 201px;
+    }
+    .courseimg2 {
+        width: 238px;
+    }
+    .courseimg3 {
+        width: 416px;
+    }
+    .text-title {
+        font-size: 150px;
+    }
+    .coursetext {
+        padding-top: 20px;
+    }
+    .coursetitle {
+        font-size: 70px;
+    }
+    .coursedesc {
+        font-size: 55px;
+        margin-top: 8px;
+    }
+    .price {
+        font-size: 45px;
+        margin-top: 15px;
+    }
+
+    .freecourse {
+        width: 92%;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        border-radius: 4vh;
+    }
+    .fc-title{
+        font-size: 150px;
+    }
+    .fc-text, .fc-text1 {
+        font-size: 65px;
+    }
+    .fc-text1 {
+        margin-left: 200px;
+        padding-bottom: 40px;
+    }
+    .fc-form{
+        text-align: justify;
+    }
+    .formlabel {
+        font-size: 45px;
+    }
+    .input-name {
+        border: 4px solid var(--color-yellow);
+        border-radius: 15px;
+        max-width: 5000px;
+        margin-bottom: 70px;
+        margin-left: 6%;
+        font-size: 45px;
+    }
+    .input-email {
+        border: 4px solid var(--color-yellow);
+        border-radius: 15px;
+        padding: 7px 150px;
+        max-width: 5000px;
+        margin-bottom: 50px;
+        margin-left: 25px;
+        font-size: 45px;
+    }
+    .form-submit {
+        font-size: 45px;
+        border-radius: 60px;
+    }
+
+    .about-us {
+        width: 92%;
+        border-radius: 4vh;
+    }
+    .about-title {
+        font-size: 150px;
+    }
+    .about1, .about2, .about3 {
+        border-radius: 1.5vh;
+        font-size: 50px;
+    }
+
+    .footer {
+        grid-gap: 200px;
+    }
+    .footer-logo-img {
+        width: 250px;
+    }
+    .cmpname {
+        font-size: 80px;
+    }
+    .footer-title {
+        font-size: 65px;
+        line-height: 90px;
+    }
+    .social-img {
+        width: 55px;
+    }
+    .footer-text {
+        font-size: 40px;
+        line-height: 70px;
+    }
+
+    .course-card {
+        width: 550px;
+        height: 900px;
+        border-radius: 3vh;
+    }
+    .courseimg {
+        height: 895px;
+    }
+    .title {
+        font-size: 100px;
+    }
+    p {
+        font-size: 50px;
+    }
+    .course-description {
+        line-height: 75px;
+    }
+}
+
+
 @media (max-width: 1850px) {
     .container-home {
         min-height: 975px;

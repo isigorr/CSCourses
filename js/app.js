@@ -67,30 +67,30 @@ if (ScrollTrigger.isTouch !==1) {
         }
     })
 
-    gsap.fromTo('.cons-text2', {x: 75, opacity: 0}, {
+    gsap.fromTo('.cons-text2', {x: 150, opacity: 0}, {
         opacity: 1, x: 0,
         scrollTrigger: {
-            trigger: 'cons-img',
-            start: '1600',
-            end: '2200',
+            trigger: '#img1',
+            start: 'top',
+            end: '2000',
             scrub: true
         }
     })
     gsap.fromTo('.cons-img1', {x: -150, opacity: 0}, {
         opacity: 1, x: 0,
         scrollTrigger: {
-            trigger: 'cons-img',
-            start: '1500',
-            end: '2200',
+            trigger: '#img1',
+            start: 'top',
+            end: '2000',
             scrub: true
         }
     })
     gsap.fromTo('.cons2', {opacity: 1}, {
         opacity: 0,
         scrollTrigger: {
-            trigger: '.cons2',
-            start: '100',
-            end: 'bottom',
+            trigger: '.cons-img1',
+            start: 'top',
+            end: 'center',
             scrub: true
         }
     })
@@ -202,8 +202,8 @@ if (ScrollTrigger.isTouch !==1) {
         opacity: 0,
         scrollTrigger: {
             trigger: '.courses',
-            start: '1000',
-            end: '1200',
+            start: '1400',
+            end: '2000',
             scrub: true
         }
     })
